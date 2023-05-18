@@ -104,13 +104,13 @@ figcaption {
 }
 
 .beeXImage:hover {
-  width: 40vw;
+  /* width: 40vw; */
   height: auto;
   border-radius: 20px;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: all 2.0s;
-  cursor: pointer;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: all 1.2s;
+  cursor: default;
 }
 
 .footer {
