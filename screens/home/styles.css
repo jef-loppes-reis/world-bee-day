@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.navigationBar {
+.navigationBar{
   background-color: #f9ff00;
 }
 
@@ -20,6 +20,10 @@ body {
   margin-left: 50px;
 }
 
+.navigationLogo:hover{
+  transform: rotate(360deg);
+  transition: all 1.2s;
+}
 .navigationList {
   display: inline-block;
   list-style: none;
